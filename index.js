@@ -35,7 +35,7 @@ export default () => {
     });
     o = o.scene;
     app.add(o);
-    app.updateMatrixWorld();
+    o.updateMatrixWorld();
   })();
   
   useCleanup(() => {
